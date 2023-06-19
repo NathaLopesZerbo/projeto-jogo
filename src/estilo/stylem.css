@@ -1,0 +1,143 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor01);
+    color: white;
+}
+
+h1 >a{
+    color: white;
+}
+
+:root{
+    --cor01:#012E40;
+    --cor02:#024959;
+    --cor03:#026773;
+    --cor04:#3CA6A6;
+    --cor05:#F2E3D5;
+}
+
+
+
+.logo a{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+li,a{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: var(--cor03);
+}
+
+
+#markm1{
+    color:  var(--cor04);
+}
+
+#markm2{
+    color: var(--cor04);
+}
+
+#markm3{
+    color: var(--cor04);
+}
+
+#markm4{
+    color: var(--cor04);
+}
+
+
+.container div{
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	/* background-color: #01202c; */
+    background-color: #3CA6A6;
+	color: white;
+	margin: 30px;
+    margin-left: 40px;
+	transition: 0.5s;
+	border-radius: 30px;
+}
+.container{
+	margin-top: 100px;
+    margin-bottom: 270px;
+	display: flex;
+}
+
+.nivel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 10px;
+}
+
+.nivel h1{
+    margin: 30px;
+    font-size: 40px;
+}
+
+.container div:hover{
+	transform: scale(1.05);
+}
+
+.item p, .nivel p{
+    width: 300px;
+    text-align: justify;
+    margin: 25px auto;
+    line-height: 20px;
+}
+
+
+.questao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--cor03);
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.questao h1{
+    padding-bottom: 30px;
+    color: white;
+    font-size: 60px;
+}

@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    --cor01:#012E40;
+    --cor02:#024959;
+    --cor03:#026773;
+    --cor04:#3CA6A6;
+    --cor05:#F2E3D5;
+
+}
+
+
+body{
+    background-color: var(--cor03);
+}
+
+/* Menu de Navegação */
+
+.logo{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+li,a{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: var(--cor03);
+}
+
+/* CARD */
+
+
+.container div{
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	/* background-color: #01202c; */
+    background-color: #012E40;
+	color: white;
+	margin: 30px;
+    margin-left: 40px;
+	transition: 0.5s;
+	border-radius: 30px;
+}
+.container{
+	margin-top: 130px;
+    margin-bottom: 270px;
+	display: flex;
+}
+
+.nivel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 10px;
+}
+
+.nivel h1{
+    margin: 30px;
+    font-size: 40px;
+}
+
+.container div:hover{
+	transform: scale(1.05);
+}
+
+.regras {
+    border-radius: 20px;
+    text-decoration: none;
+    max-width:1250px;
+    height: 880px;
+	margin: 20px auto;
+	text-align: center;
+	background-color: var(--cor02);
+
+}
+
+.regras>h1{
+    margin-bottom: 20px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+    background-color:var(--cor01) ;
+    color: white;
+    display: block;
+}
+
+
+
+.flex{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item h3{
+    text-align: left;
+    text-indent: 15px;
+    color: white;
+    background-color: var(--cor03);
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.item p{
+    font-size: 20px;
+    width: 300px;
+    text-align: justify;
+    margin: 50px auto;
+    line-height: 23px;
+}
+
+
+
+ .nivel p{
+    width: 300px;
+    text-align: center;
+    margin: 25px auto;
+    line-height: 20px;
+}
+
+.item{
+    border-radius: 10px;
+    background-color: var(--cor04);
+    justify-content: space-between;
+    margin: 30px;
+    width: 400px;
+    padding: 0px;
+    height: 320px;
+}
+
+
+
+span a{
+    color: var(--cor04);
+}
+
+.cima>a:hover{  
+    transition: 0.5s;
+    text-decoration: underline;
+    color: var(--cor03);
+}
+
+
